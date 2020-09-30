@@ -25,11 +25,11 @@ for tweet in tweepy.Cursor(api.search, search).items(nrTweets):
     try:
         print("Tweet Liked")
         tweet.favorite()
-        time.sleep(2)
+        time.sleep(20)
 
         print("Tweet Retweeted")
         tweet.retweet()
-        time.sleep(10)
+        time.sleep(20)
     except tweepy.TweepError as e:
         print(e.reason)
     except StopIteration:
