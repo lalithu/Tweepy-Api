@@ -1,3 +1,3 @@
 # Tweepy-Api
 
-Tweepy-Api by Lalith Uriti 2020
+© Tweepy-Api Jimothy by Lalith Uriti 2020
