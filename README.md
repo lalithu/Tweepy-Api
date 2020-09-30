@@ -1,4 +1,3 @@
 # Tweepy-Api Jimothy
 
-© Lalith Uriti 2020
-https://twitter.com/jimothyhalp
+© Lalith Uriti, 2020 | https://twitter.com/jimothyhalp
