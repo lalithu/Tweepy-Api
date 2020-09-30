@@ -8,11 +8,11 @@ auth.set_access_token('1294345533050351616-35hpysbpO3XGANp0Nviwnssjh9IXDr',
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
-'''try:
+try:
     api.verify_credentials()
-    print("Authentication OK")
+    print("Authentication Successful")
 except:
-    print("Error during authentication")'''
+    print("Authentication Unsuccessful")
 
 user = api.me()
 
