@@ -18,14 +18,14 @@ user = api.me()
 
 print(user.followers_count)
 
-search = 'Javascript'
-nrTweets = 10
+search = 'Python'
+nrTweets = 500
 
 for tweet in tweepy.Cursor(api.search, search).items(nrTweets):
     try:
         print("Tweet Liked")
         tweet.favorite()
-        time.sleep(60)
+        time.sleep(10)
     except tweepy.TweepError as e:
         print(e.reason)
     except StopIteration:
